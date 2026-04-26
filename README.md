@@ -42,6 +42,3 @@
 - AI 模型：deepseek-chat
 - 请求方式：HTTPS API 调用
 - 编码：UTF-8 兼容中文
-
----
-
