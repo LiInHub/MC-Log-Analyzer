@@ -3,11 +3,10 @@
 
 
 ## 功能
-- 可视化 GUI 界面
+- 可视化界面
 - 支持多 API 密钥管理（添加/删除/切换）
 - 读取 Minecraft 崩溃日志、服务端日志
-- AI 智能分析：精准定位崩溃原因
-- 纯文本展示结果
+- AI分析：定位崩溃原因
 - 本地配置保存，无需重复输入 API
 
 ## 运行前提
@@ -30,12 +29,14 @@
 
 ## 注意事项
 1. 确保网络可以正常访问 DeepSeek API
-2. 日志内容过大会自动截取最后 8000 字符分析，避免请求超时
+2. 为了避免请求超时，日志内容过大会自动截取最后 8000 字符分析
 3. API Key 仅保存在本地配置文件，请注意保管
 4. 若出现超时，可重试一次或检查网络状态
 
 
 ## 技术说明
 - UI框架：Tkinter
-- AI模型：deepseek
 - 请求方式：HTTPS API 调用
+
+## 下载应用程序
+- Windows 下载地址 [https://github.com/LiInHub/MC-Log-Analyzer/releases/download/v1.0/MC-Log-Analyzer.exe](https://github.com/LiInHub/MC-Log-Analyzer/releases/download/v1.0/MC-Log-Analyzer.exe)
